@@ -1,5 +1,5 @@
 # Event Driven Chat
-This is an event-driven chat server made in C. Its purpose is to serve as the server that received messages, handle their queue, and relays them between clients, using an event-driven architecture and a single thread with the `select` function. This allows us to save the overhead of context switching and thread synchronization.
+This is an event-driven chat server made in C. Its purpose is to handle received messages, the message queue, and to relay the messages between clients, using an event-driven architecture and a single thread with the `select` function. This allows us to save the overhead of context switching and thread synchronization.
 
 ## Usage
 Compile with:
